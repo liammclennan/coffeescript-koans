@@ -1,0 +1,14 @@
+{
+  "name": "coffeescript-koans",
+  "version": "0.0.1",
+  "description": "CoffeeScript Koans is an interactive learning environment that uses failing tests to introduce students to aspects of CoffeeScript in a logical sequence.",
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script -R spec"
+  },
+  "repository": "",
+  "keywords": [
+    "CoffeeScript"
+  ],
+  "author": "Liam McLennan",
+  "license": "BSD"
+}
