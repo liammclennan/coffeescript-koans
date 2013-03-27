@@ -16,5 +16,3 @@ Usage
 
     ```npm test```
 
-
-
