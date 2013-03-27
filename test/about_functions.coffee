@@ -54,3 +54,14 @@ describe 'functions', ->
 
       it 'should collapse the function arguments', ->
         assert.equal result, 13
+
+  describe 'default function arguments', ->
+    [add,result] = [null,null]
+
+    before ->
+      add = (first, second = 0) -> first + second
+      result = add 5
+
+    it 'should add 5 and 0', ->
+      assert.equal result, 5
+
