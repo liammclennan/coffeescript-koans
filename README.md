@@ -6,15 +6,15 @@ Usage
 * [Install node.js](https://github.com/joyent/node/wiki/Installation)
 * Install CoffeeScript
 
-    npm install -g coffee-script
+    ```npm install -g coffee-script```
 
 * Install mocha
 
-    npm install -g mocha
+    ```npm install -g mocha```
 
 * Run the tests
 
-    npm test
+    ```npm test```
 
 
 
