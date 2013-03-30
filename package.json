@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "CoffeeScript Koans is an interactive learning environment that uses failing tests to introduce students to aspects of CoffeeScript in a logical sequence.",
   "scripts": {
-    "test": "mocha --compilers coffee:coffee-script -R spec test/about_asserts.coffee test/about_assignment.coffee test/about_functions.coffee test/about_objects.coffee test/about_conditionals.coffee"
+    "test": "mocha --compilers coffee:coffee-script -R spec test/about_asserts.coffee test/about_assignment.coffee test/about_functions.coffee test/about_objects.coffee test/about_conditionals.coffee test/about_comprehensions.coffee"
   },
   "repository": "",
   "keywords": [
